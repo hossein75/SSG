@@ -122,6 +122,7 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 		if(e.getKeyCode() == KeyEvent.VK_ENTER) {
 			play = true;
 			attack = true;
+			score = 0;
 		}
 		
 }
